@@ -1,4 +1,7 @@
 package com.pluralsight;
 
-public class LogLevel {
+public abstract class LogLevel {
+    public abstract String getLabel();
+
+    public abstract int getSeverity();
 }
